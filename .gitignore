@@ -1,4 +1,4 @@
 node_modules
 .vscode
-/database.js
-app.js
+/utils
+/app.js
