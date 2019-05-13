@@ -216,9 +216,46 @@ form {
   color: white;
 }
 
+.user-message {
+  margin: auto;
+  width: 90%;
+  border: 1px solid dodgerblue;
+  padding: .5rem;
+  border-radius: 3px;
+  background: rgb(141, 183, 226);
+  text-align: center;
+}
+
+.user-message--error {
+  border-color: red;
+  background: rgb(231, 137, 137);
+}
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #00695c;
+  padding: 0.5rem;
+  border: 1px solid #00695c;
+  margin: 0 1rem;
+}
+
+.pagination a:hover,
+.pagination a:active,
+.pagination a.active {
+  background: #00695c;
+  color: white;
+}
+
 @media (min-width: 768px) {
   .main-header__nav {
     display: flex;
+    width: 100%;
+    justify-content: space-between
   }
 
   #side-menu-toggle {
